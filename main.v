@@ -77,5 +77,4 @@ module TotientValues( input clk, input rst, output reg [3:0] value );
 
         value <= values[index];         // assign corresponding totient value to the output
     end
-
 endmodule
